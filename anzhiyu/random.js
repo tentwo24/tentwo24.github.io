@@ -1,3 +1,3 @@
-var posts=["2024/09/30/HTML-CSS语言提升-HTML5手册/","2024/08/29/HTML-CSS收官/","2024/08/30/HTML-CSS项目实战/","2024/09/03/JS收官-一/","2024/09/25/HTML-CSS语言提升-H5-CSS3/","2024/07/12/uniapp-测试环境实现域名切换/","2024/09/24/JS项目实战/","2024/06/03/关于VueRouter/","2024/09/09/JS收官-二/","2024/06/03/关于pinia和vuex的简单应用/","2024/06/03/webpack的基本用法/","2024/06/03/webpack的高级应用/","2024/08/20/关于微信小程序码/"];function toRandomPost(){
+var posts=["2024/08/29/HTML-CSS收官/","2024/09/30/HTML-CSS语言提升-HTML5手册/","2024/09/25/HTML-CSS语言提升-CSS3手册/","2024/09/03/JS收官-一/","2024/08/30/HTML-CSS项目实战/","2024/09/09/JS收官-二/","2024/09/24/JS项目实战/","2024/07/12/uniapp-测试环境实现域名切换/","2024/06/03/webpack的高级应用/","2024/06/03/webpack的基本用法/","2024/06/03/关于VueRouter/","2024/08/20/关于微信小程序码/","2024/06/03/关于pinia和vuex的简单应用/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
